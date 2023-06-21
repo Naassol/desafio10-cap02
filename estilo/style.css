@@ -28,7 +28,7 @@ body {
     font-family: var(--fonte-padrao);
 }
 
-a.externo::after{
+a.externo::after {
     content: '\00A0\1F517';
 }
 
@@ -56,7 +56,7 @@ header>p {
     font-size: 1.2em;
     text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.549);
     max-width: 500px;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
     padding-left: 10px;
     padding-right: 10px;
     margin: auto;
@@ -190,5 +190,5 @@ footer {
     background-color: var(--cor3);
     color: white;
     padding: 10px;
-    
+
 }
